@@ -1,0 +1,2 @@
+#Crear una rama nueva
+Git Checkout -b "Nombre de la rama"
