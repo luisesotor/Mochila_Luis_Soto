@@ -1,2 +1,39 @@
-#Crear una rama nueva
-Git Checkout -b "Nombre de la rama"
+git init: Crea un nuevo repositorio Git en el directorio actual.
+
+git clone <URL>: Crea una copia local de un repositorio remoto en la URL especificada.
+
+git add <archivo>: Agrega un archivo específico al área de preparación (staging area) para ser confirmado.
+
+git add .: Agrega todos los archivos modificados y nuevos al área de preparación.
+
+git commit -m "<mensaje>": Confirma los cambios en el área de preparación y crea un nuevo commit con un mensaje descriptivo.
+
+git status: Muestra el estado actual del repositorio, incluyendo los archivos modificados, los archivos en el área de preparación y los commits pendientes.
+
+git push: Envía los commits locales al repositorio remoto.
+
+git pull: Obtiene los cambios del repositorio remoto y los fusiona con la rama actual.
+
+git branch: Muestra una lista de las ramas en el repositorio. La rama actual se muestra resaltada.
+
+git branch <nombre_rama>: Crea una nueva rama con el nombre especificado.
+
+git checkout <nombre_rama>: Cambia a la rama especificada.
+
+git merge <nombre_rama>: Fusiona la rama especificada con la rama actual.
+
+git remote: Muestra una lista de los repositorios remotos configurados.
+
+git remote add <nombre> <URL>: Agrega un nuevo repositorio remoto con el nombre y la URL especificados.
+
+git log: Muestra el historial de commits del repositorio.
+
+git diff: Muestra las diferencias entre los archivos modificados y el último commit.
+
+git reset <archivo>: Elimina un archivo específico del área de preparación, sin descartar los cambios realizados.
+
+git reset --hard: Descarta todos los cambios locales y regresa al estado del último commit.
+
+git stash: Guarda los cambios locales en una pila temporal, permitiendo cambiar de rama sin confirmar los cambios.
+
+git stash pop: Restaura los cambios guardados en la última operación git stash y los elimina de la pila temporal.
